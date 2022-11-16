@@ -15,48 +15,25 @@ npm
 MongoDB Atlas
 ```
 
-### Database
-
-Create a database named groupomania
-
 ### Clone and install
 
-Clone the project
+Clone the project.
+Go to the project directory.
+Install dependencies.
 
-```bash
-  git clone https://github.com/mathhetru/P7_Groupomania
-```
-
-Go to the project directory
-
-```bash
-  cd P7_Groupomania
-```
-
-Install dependencies
-
-```bash
-  npm install
-```
-If you have any trouble, check and update every package with `npm install -g npm-check-updates`.
+  > If you have any trouble, check and update every package with `npm install -g npm-check-updates`.
 
 ### Environment Variables
 
-To run this project, you will need to add the following environment variables to a .env file
+To run this project, you will need to create a `.env` file in `back` folder. The add the following environment variables to the .env file
 
-Create a `.env` file in `back` folder. Check `app.js` if you need more informations.
+DB_HOST=
+DB_USER= 
+DB_PASSWORD= 
+DB_NAME= 
+TOKEN = 
 
-- `account` account name database  
-- `mdp` password database
-- `database` name of the database  
-
-Example:
-
-```
-    account="administrateur"
-    mdp="motdepasse"
-    database="groupomania.azerty"
-```
+Check `app.js` if you need more informations.
 
 ### Start the back
 
@@ -66,8 +43,6 @@ Example:
 ```
 
 ### Start the front
-
-In an other terminal
 
 ```bash
   cd ./front
